@@ -1,1 +1,154 @@
-vbd
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Analysis Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>❤️ Heart Disease Analysis Dashboard</h1>
+        <p>Medical Data Analytics System</p>
+    </header>
+    <h2>📊 Tableau Dashboard</h2>
+    https://public.tableau.com/app/profile/ravi.and.co.team/vizzes <br>👉 Open Heart Disease Tableau Dashboard
+
+
+
+    </a>
+    </a>
+    </a>
+    <section class="container">
+
+        <button onclick="analyzeData()">Analyze Patients</button>
+
+        <div id="cards">
+
+            <div class="card">
+                <h2>Total Patients</h2>
+                <p id="total">10023</p>
+            </div>
+
+            <div class="card">
+                <h2>Heart Disease Cases</h2>
+                <p id="diseaseYes">989</p>
+            </div>
+
+            <div class="card">
+                <h2>Healthy Patients</h2>
+                <p id="diseaseNo">234</p>
+            </div>
+
+            <div class="card">
+                <h2>Average Age</h2>
+                <p id="avgAge">56</p>
+            </div>
+
+            <div class="card">
+                <h2>Avg BP</h2>
+                <p id="avgBP">38</p>
+            </div>
+
+            <div class="card">
+                <h2>Avg Cholesterol</h2>
+                <p id="avgChol">19</p>
+            </div>
+
+        </div>
+
+        <h2>Patient Dataset</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>BP</th>
+                    <th>Cholesterol</th>
+                    <th>Heart Rate</th>
+                    <th>Disease</th>
+                </tr>
+            </thead>
+
+            <tbody id="tableData"></tbody>
+        </table>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+    <h2>Analytics Charts</h2>
+
+    <canvas id="pieChart" width="400" height="200"></canvas>
+
+    <canvas id="barChart" width="400" height="200"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Heart Disease Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>❤️ Heart Disease Dashboard</h1>
+
+    <button onclick="analyzeData()">Analyze</button>
+
+    <div id="cards">
+        <p>Total: <span id="total"></span></p>
+        <p>Diseased: <span id="diseaseYes"></span></p>
+        <p>Healthy: <span id="diseaseNo"></span></p>
+        <p>Avg Age: <span id="avgAge"></span></p>
+        <p>Avg BP: <span id="avgBP"></span></p>
+        <p>Avg Chol: <span id="avgChol"></span></p>
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>BP</th>
+                <th>Chol</th>
+                <th>HR</th>
+                <th>Disease</th>
+            </tr>
+        </thead>
+        <tbody id="tableData"></tbody>
+    </table>
+
+    <h2>Charts</h2>
+
+    <canvas id="pieChart"></canvas>
+    <canvas id="barChart"></canvas>
+
+    <script src="script.js"></script>
+    <h2>📊 My Tableau Public Dashboard</h2>
+
+    <p>View my interactive medical analytics dashboard:</p>
+
+    <ahref="https://public.tableau.com/app/profile/YOUR_USERNAME" target="_blank">
+        👉 Open Tableau Public Profile
+        </a>
+</body>
+
+</html>
